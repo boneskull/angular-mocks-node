@@ -5,7 +5,7 @@
   "main": "index.js",
   "browser": "index-browserify.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "jshint *.js test/*.js --reporter node_modules/jshint-stylish/stylish.js && mocha test"
   },
   "repository": {
     "type": "git",
@@ -33,11 +33,9 @@
   },
   "devDependencies": {
     "angular-node": "1.3.2",
-    "async": "^0.9.0",
     "chai": "^1.10.0",
     "jshint": "^2.5.10",
     "jshint-stylish": "^1.0.0",
-    "mocha": "^2.0.1",
-    "uver": "^1.0.2"
+    "mocha": "^2.0.1"
   }
 }
