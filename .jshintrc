@@ -1,0 +1,19 @@
+{
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "noarg": true,
+  "noempty": true,
+  "nonew": true,
+  "undef": true,
+  "strict": true,
+  "indent": 2,
+  "expr": true,
+  "newcap": false,
+  "node": true,
+  "quotmark": "single",
+  "predef": ["beforeEach", "afterEach", "setup", "teardown", "angular"],
+  "-W054": true,
+  "-W079": true
+}
