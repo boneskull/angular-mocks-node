@@ -34,8 +34,8 @@ The `angular.mock` object is both exported by the `angular-mocks-node` module, a
 
 ```js
 var angular = require('angular-node');
-var mock = require('angular-mocks-node');
-angular.mock === mock; // true
+var ngMock = require('angular-mocks-node');
+angular.mock === ngMock; // true
 ```
 
 ## Supported Test Frameworks
